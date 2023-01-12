@@ -1,7 +1,8 @@
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
-import 'package:testing_provider/bread_crumb.dart';
+
+import 'bread_crumb.dart';
 
 class BreadCrumbProvider extends ChangeNotifier {
   final List<BreadCrumb> _items = [];

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:testing_provider/bread_crumb_provider.dart';
 import 'package:testing_provider/new_bread_crumb_screen.dart';
-import 'package:testing_provider/widgets/bread_crumb_widget.dart';
+
+import 'bread_crumb_provider.dart';
+import 'widgets/bread_crumb_widget.dart';
 
 void main() {
   runApp(const MyApp());

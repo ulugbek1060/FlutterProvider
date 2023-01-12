@@ -1,7 +1,8 @@
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
-import 'package:testing_provider/bread_crumb.dart';
+
+import '../bread_crumb.dart';
 
 // ignore: must_be_immutable
 class BreaadCrumbsWidget extends StatelessWidget {
