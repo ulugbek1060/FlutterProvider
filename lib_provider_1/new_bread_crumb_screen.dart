@@ -3,6 +3,10 @@ import 'package:provider/provider.dart';
 import 'package:testing_provider/bread_crumb.dart';
 import 'package:testing_provider/bread_crumb_provider.dart';
 
+void main() {
+  runApp(MaterialApp());
+}
+
 class NewBreadCrumbScreen extends StatefulWidget {
   const NewBreadCrumbScreen({super.key});
 
